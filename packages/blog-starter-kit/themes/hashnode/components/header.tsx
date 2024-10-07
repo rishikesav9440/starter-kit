@@ -25,26 +25,11 @@ export const Header = (props: Props) => {
 				<div className="relative z-40 flex flex-row items-center justify-between pb-2 pt-8 md:mb-4">
 					<div className="flex flex-row items-center py-1">
 						{/* Navigation for mobile view */}
-						<div
-							className={twJoin(
-								'md:hidden','dark:text-white',
-							)}
-						>
-							<HeaderLeftSidebar publication={publication} />
-						</div>
-						<div className="hidden md:block">
-							<PublicationLogo publication={publication} size="lg" withProfileImage />
-						</div>
+						
+						
 					</div>
 
-					<div
-						className={twJoin(
-							'flex flex-row items-center','dark:text-white',
-						)}
-					>
-						<HeaderBlogSearch publication={publication} />
-						<Button as="a" href="#" type="primary" label="Sign up" />
-					</div>
+				
 				</div>
 
 
